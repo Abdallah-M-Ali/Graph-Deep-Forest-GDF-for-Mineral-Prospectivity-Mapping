@@ -137,7 +137,7 @@ All random seeds are fixed:
 - `random_state=42` in the cascade forest regressor.
 - `np.random.seed(42)` is not explicitly set but all sklearn estimators use the given random states.
 
-To exactly reproduce the numbers reported in the manuscript, use the hyperparameters listed in **Table 2** of the paper (typically `n_trees=300`, `alpha=0.3`, `n_estimators=8`, `num_heads=3`).
+To exactly reproduce the numbers reported in the manuscript, use the hyperparameters listed in the paper.
 
 ---
 
@@ -175,4 +175,3 @@ For questions or issues, please open an issue on GitHub or contact the first aut
 
 ---
 
-This README now explains the **label convention (2/1)** explicitly, includes author names, and walks through the entire data processing pipeline. You can replace the placeholder author names and email before uploading to GitHub.
